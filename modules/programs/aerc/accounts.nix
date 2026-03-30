@@ -108,6 +108,7 @@ in
               nullOr (enum [
                 "oauthbearer"
                 "xoauth2"
+                "insecure"
               ]);
             default = null;
             example = "auth";
@@ -129,6 +130,7 @@ in
                 "login"
                 "oauthbearer"
                 "xoauth2"
+                "insecure"
               ]);
             default = "plain";
             example = "auth";
