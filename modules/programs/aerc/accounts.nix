@@ -1,6 +1,7 @@
 {
   config,
   lib,
+  pkgs,
   confSections,
   confSection,
   ...
@@ -261,7 +262,8 @@ in
         // (optAttr "copy-to" account.folders.sent)
         // (optAttr "default" account.folders.inbox)
         // (optAttr "postpone" account.folders.drafts)
-        // (optAttr "aliases" account.aliases);
+        // (optAttr "aliases" account.aliases)
+        // (optAttr "signature-file" (pkgs.writeText "signature" account.signature.text));
 
       sourceCfg =
         account:
