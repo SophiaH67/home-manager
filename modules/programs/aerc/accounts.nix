@@ -211,11 +211,12 @@ in
               else
                 "imap+insecure";
 
+            userName' = lib.strings.escapeURL userName;
             port' = optPort imap.port;
 
           in
           {
-            source = "${protocol}://${userName}@${imap.host}${port'}${oauthParams'}";
+            source = "${protocol}://${userName'}@${imap.host}${port'}${oauthParams'}";
           }
           // optPwCmd "source" passwordCommand;
 
@@ -240,11 +241,12 @@ in
               else
                 "smtp+insecure${loginMethod'}";
 
+            userName' = lib.strings.escapeURL userName;
             port' = optPort smtp.port;
 
           in
           {
-            outgoing = "${protocol}://${userName}@${smtp.host}${port'}${oauthParams'}";
+            outgoing = "${protocol}://${userName'}@${smtp.host}${port'}${oauthParams'}";
           }
           // optPwCmd "outgoing" passwordCommand;
 
