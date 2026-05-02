@@ -151,6 +151,12 @@
     github = "dsoverlord";
     githubId = 78819443;
   };
+  dsqr = {
+    name = "Dave Dennis";
+    email = "me@dsqr.dev";
+    github = "0xdsqr";
+    githubId = 99584622;
+  };
   dwagenk = {
     email = "dwagenk@mailbox.org";
     github = "dwagenk";
@@ -227,6 +233,12 @@
         fingerprint = "AD32 73D4 5E0E 9478 E826  543F EDB2 C634 166A E6AD";
       }
     ];
+  };
+  isaacST08 = {
+    name = "Isaac Shiells Thomas";
+    email = "isaacst.nix@proton.me";
+    github = "isaacST08";
+    githubId = 106057977;
   };
   jack5079 = {
     name = "Jack W.";
@@ -428,6 +440,12 @@
     github = "nurelin";
     githubId = 5276274;
   };
+  ojsef39 = {
+    name = "Josef Hofer";
+    email = "josef.hofer@1und1.de";
+    github = "ojsef39";
+    githubId = 43563019;
+  };
   olmokramer = {
     name = "Olmo Kramer";
     email = "olmokramer@users.noreply.github.com";
@@ -516,6 +534,18 @@
     email = "silmarjr2@gmail.com";
     github = "silmarp";
     githubId = 67292496;
+  };
+  soracat = {
+    name = "soracat";
+    email = "125882337+s0racat@users.noreply.github.com";
+    github = "s0racat";
+    githubId = 125882337;
+  };
+  yarn = {
+    name = "yarncat";
+    email = "30006414+yaaaarn@users.noreply.github.com";
+    github = "yaaaarn";
+    githubId = 30006414;
   };
   zorrobert = {
     name = "zorrobert";

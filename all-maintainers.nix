@@ -21,6 +21,13 @@
     name = "0xda157";
     source = "nixpkgs";
   };
+  "0xdsqr" = {
+    email = "me@dsqr.dev";
+    github = "0xdsqr";
+    githubId = 99584622;
+    name = "Dave Dennis";
+    source = "nixpkgs";
+  };
   "3ulalia" = {
     email = "3ulalia@proton.me";
     github = "3ulalia";
@@ -450,13 +457,6 @@
     githubId = 27813;
     matrix = "@Valodim:stratum0.org";
     name = "Vincent Breitmoser";
-    source = "nixpkgs";
-  };
-  Vortriz = {
-    email = "vorarishi22+nix@gmail.com";
-    github = "Vortriz";
-    githubId = 97402159;
-    name = "Rishi Vora";
     source = "nixpkgs";
   };
   WGUNDERWOOD = {
@@ -1259,6 +1259,13 @@
     name = "Ilya Savitsky";
     source = "nixpkgs";
   };
+  isaacST08 = {
+    email = "isaacst.nix@proton.me";
+    github = "isaacST08";
+    githubId = 106057977;
+    name = "Isaac Shiells Thomas";
+    source = "home-manager";
+  };
   iynaix = {
     email = "iynaix@gmail.com";
     github = "iynaix";
@@ -1847,6 +1854,13 @@
     name = "Judson Lester";
     source = "nixpkgs";
   };
+  ojsef39 = {
+    email = "josef.hofer@1und1.de";
+    github = "ojsef39";
+    githubId = 43563019;
+    name = "Josef Hofer";
+    source = "home-manager";
+  };
   olmokramer = {
     email = "olmokramer@users.noreply.github.com";
     github = "olmokramer";
@@ -1935,13 +1949,6 @@
     github = "philocalyst";
     githubId = 114884788;
     name = "Myles Wirth";
-    source = "nixpkgs";
-  };
-  pinage404 = {
-    email = "pinage404+nixpkgs@gmail.com";
-    github = "pinage404";
-    githubId = 6325757;
-    name = "pinage404";
     source = "nixpkgs";
   };
   pjones = {
@@ -2115,6 +2122,13 @@
       }
     ];
     name = "Robert Helgesson";
+    source = "nixpkgs";
+  };
+  s0racat = {
+    email = "125882337+s0racat@users.noreply.github.com";
+    github = "s0racat";
+    githubId = 125882337;
+    name = "soracat";
     source = "nixpkgs";
   };
   sableseyler = {
@@ -2380,6 +2394,13 @@
     github = "xlambein";
     githubId = 5629059;
     name = "Xavier Lambein";
+    source = "nixpkgs";
+  };
+  yaaaarn = {
+    email = "30006414+yaaaarn@users.noreply.github.com";
+    github = "yaaaarn";
+    githubId = 30006414;
+    name = "yarncat";
     source = "nixpkgs";
   };
   yethal = {

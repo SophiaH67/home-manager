@@ -417,12 +417,12 @@ in
           }) cfg.backups;
 
         mustSetRepository = assertBackup {
-          assertion = n: v: lib.xor (v.repository == null) (v.repositoryFile == null);
+          assertion = _n: v: lib.xor (v.repository == null) (v.repositoryFile == null);
           message = "exactly one of repository or repositoryFile should be set";
         };
 
         mustSetPassword = assertBackup {
-          assertion = n: v: lib.xor (v.passwordCommand == null) (v.passwordFile == null);
+          assertion = _n: v: lib.xor (v.passwordCommand == null) (v.passwordFile == null);
           message = "exactly one of passwordCommand or passwordFile should be set";
         };
       in
@@ -498,7 +498,6 @@ in
           RuntimeDirectory = serviceName;
           CacheDirectory = serviceName;
           CacheDirectoryMode = "0700";
-          PrivateTmp = true;
 
           Environment = mkEnvironment backup ++ [ "RESTIC_CACHE_DIR=%C/${serviceName}" ];
 
