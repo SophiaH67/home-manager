@@ -1832,20 +1832,8 @@
     email = "nukdokplex@nukdokplex.ru";
     github = "nukdokplex";
     githubId = 25458915;
-    keys = [
-      {
-        fingerprint = "7CE2 4C42 942D 58EA 99F6  F00A A47E 7374 3EF6 FCC4";
-      }
-    ];
     name = "Viktor Titov";
     source = "nixpkgs";
-  };
-  nurelin = {
-    email = "nurelin@users.noreply.github.com";
-    github = "nurelin";
-    githubId = 5276274;
-    name = "nurelin";
-    source = "home-manager";
   };
   nyarly = {
     email = "nyarly@gmail.com";
@@ -1855,11 +1843,11 @@
     source = "nixpkgs";
   };
   ojsef39 = {
-    email = "josef.hofer@1und1.de";
+    email = "me+github@jhofer.de";
     github = "ojsef39";
     githubId = 43563019;
     name = "Josef Hofer";
-    source = "home-manager";
+    source = "nixpkgs";
   };
   olmokramer = {
     email = "olmokramer@users.noreply.github.com";
@@ -2143,6 +2131,13 @@
     name = "Sable Seyler";
     source = "nixpkgs";
   };
+  sei40kr = {
+    email = "sei40kr@gmail.com";
+    github = "sei40kr";
+    githubId = 11665236;
+    name = "Seong Yong-ju";
+    source = "nixpkgs";
+  };
   shikanime = {
     email = "william.phetsinorath@shikanime.studio";
     github = "shikanime";
@@ -2419,6 +2414,12 @@
       }
     ];
     name = "Jona Abdinghoff";
+    source = "nixpkgs";
+  };
+  zh4ngx = {
+    github = "zh4ngx";
+    githubId = 1329212;
+    name = "Andy Zhang";
     source = "nixpkgs";
   };
   zorrobert = {

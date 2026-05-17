@@ -211,6 +211,12 @@
     github = "fpob";
     githubId = 6289078;
   };
+  garklein = {
+    name = "Garklein";
+    email = "garklein97@gmail.com";
+    github = "garklein";
+    githubId = 63201615;
+  };
   gauthsvenkat = {
     email = "gauthsvenkat+home-manager@gmail.com";
     github = "gauthsvenkat";
@@ -433,18 +439,6 @@
     email = "nitro@ortin.dev";
     github = "NitroSniper";
     githubId = 44097331;
-  };
-  nurelin = {
-    name = "nurelin";
-    email = "nurelin@users.noreply.github.com";
-    github = "nurelin";
-    githubId = 5276274;
-  };
-  ojsef39 = {
-    name = "Josef Hofer";
-    email = "josef.hofer@1und1.de";
-    github = "ojsef39";
-    githubId = 43563019;
   };
   olmokramer = {
     name = "Olmo Kramer";
