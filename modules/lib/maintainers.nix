@@ -302,6 +302,12 @@
     github = "kalhauge";
     githubId = 1182166;
   };
+  kayskayskays = {
+    name = "Kays";
+    email = "115312476+kayskayskays@users.noreply.github.com";
+    github = "kayskayskays";
+    githubId = 115312476;
+  };
   kmaasrud = {
     name = "Knut Magnus Aasrud";
     email = "km@aasrud.com";
@@ -534,6 +540,11 @@
     email = "125882337+s0racat@users.noreply.github.com";
     github = "s0racat";
     githubId = 125882337;
+  };
+  SunOfLife1 = {
+    name = "SunOfLife1";
+    github = "SunOfLife1";
+    githubId = 30405063;
   };
   yarn = {
     name = "yarncat";
