@@ -1,13 +1,16 @@
 { lib, pkgs, ... }:
 {
-  programs.television.enable = true;
+  programs.television = {
+    enable = true;
+    extraPackages = [ ];
+  };
 
   programs.nix-search-tv.enable = true;
 
   nmt.script =
     let
-      keybinding_modifier = if pkgs.stdenv.isDarwin then "alt" else "ctrl";
-      opener = if pkgs.stdenv.isDarwin then "open" else "xdg-open";
+      keybinding_modifier = if pkgs.stdenv.hostPlatform.isDarwin then "alt" else "ctrl";
+      opener = if pkgs.stdenv.hostPlatform.isDarwin then "open" else "xdg-open";
     in
     ''
       assertFileExists home-files/.config/television/cable/nix-search-tv.toml
@@ -19,12 +22,12 @@
           mode = "execute"
 
           [actions.run]
-          command = "nix run {replace:s/\\/ /#/g}"
+          command = 'nix run {replace:s/\/ /#/g}'
           description = "Run the package"
           mode = "execute"
 
           [actions.shell]
-          command = "nix shell {replace:s/\\/ /#/g}"
+          command = 'nix shell {replace:s/\/ /#/g}'
           description = "Enter new nix shell with this package"
           mode = "execute"
 
@@ -44,7 +47,7 @@
           name = "nix-search-tv"
 
           [preview]
-          command = "${lib.getExe pkgs.nix-search-tv} preview \"{}\""
+          command = '${lib.getExe pkgs.nix-search-tv} preview "{}"'
 
           [source]
           command = "${lib.getExe pkgs.nix-search-tv} print"

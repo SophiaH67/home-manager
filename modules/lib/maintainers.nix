@@ -7,29 +7,17 @@
 # [1] https://github.com/NixOS/nixpkgs/blob/737449404589e4a80b3fa99ecbc6d4d803c1f6dc/maintainers/maintainer-list.nix#LC1
 {
   # keep-sorted start case=no numeric=no block=yes
-  "3ulalia" = {
+  _3ulalia = {
     name = "Eulalia del Sol";
     email = "3ulalia@proton.me";
     github = "3ulalia";
     githubId = 179992797;
   };
-  "74k1" = {
-    name = "Tim";
-    email = "git.t@betsumei.com";
-    github = "74k1";
-    githubId = 49000471;
-  };
-  "9p4" = {
+  _9p4 = {
     name = "9p4";
     email = "vcs@ersei.net";
     github = "9p4";
     githubId = 17993169;
-  };
-  "will-lol" = {
-    name = "William Bradshaw";
-    email = "will.bradshaw50@gmail.com";
-    github = "will-lol";
-    githubId = 65345408;
   };
   aabccd021 = {
     name = "Muhamad Abdurahman";
@@ -91,6 +79,12 @@
     github = "b1kku";
     githubId = 77858854;
   };
+  bittner = {
+    name = "Peter Bittner";
+    email = "peter@painless.software";
+    github = "bittner";
+    githubId = 665072;
+  };
   bjpbakker = {
     email = "bart@thesoftwarecraft.com";
     github = "bjpbakker";
@@ -109,11 +103,11 @@
     github = "CarlosLoboxyz";
     githubId = 86011416;
   };
-  ckgxrg = {
-    name = "ckgxrg";
-    email = "ckgxrg@ckgxrg.io";
-    github = "ckgxrg-salt";
-    githubId = 165614491;
+  csanthiago = {
+    name = "csanthiago";
+    email = "git@csanthiago.dev";
+    github = "csanthiago";
+    githubId = 8346803;
   };
   d-dervishi = {
     email = "david.dervishi@epfl.ch";
@@ -163,6 +157,12 @@
     githubId = 32838899;
     name = "Daniel Wagenknecht";
   };
+  ekhh = {
+    name = "EKHH";
+    email = "90589480+ekhh@users.noreply.github.com";
+    github = "ekhh";
+    githubId = 90589480;
+  };
   elanora96 = {
     name = "Elanora Manson";
     email = "git@elanora.lol";
@@ -174,6 +174,12 @@
     email = "kami@epix.icu";
     github = "epixtm";
     githubId = 168025607;
+  };
+  ErinaYip = {
+    name = "erina";
+    email = "erinayip@outlook.com";
+    github = "ErinaYip";
+    githubId = 227132255;
   };
   exzombie = {
     name = "Jure Varlec";
@@ -222,6 +228,11 @@
     github = "gauthsvenkat";
     githubId = 26820345;
   };
+  glmlm = {
+    email = "91877885+glmlm@users.noreply.github.com";
+    github = "glmlm";
+    githubId = 91877885;
+  };
   henrisota = {
     email = "henrisota@users.noreply.github.com";
     github = "henrisota";
@@ -239,6 +250,12 @@
         fingerprint = "AD32 73D4 5E0E 9478 E826  543F EDB2 C634 166A E6AD";
       }
     ];
+  };
+  ilovelinux = {
+    name = "Antonio Spadaro";
+    email = "nix+home-manager@ilovelinux.dev";
+    github = "ilovelinux";
+    githubId = 9268789;
   };
   isaacST08 = {
     name = "Isaac Shiells Thomas";
@@ -434,12 +451,6 @@
     github = "natecox";
     githubId = 2782695;
   };
-  nikp123 = {
-    name = "nikp123";
-    email = "nikp123@users.noreply.github.com";
-    github = "nikp123";
-    githubId = 4696350;
-  };
   NitroSniper = {
     name = "Nitro Sniper";
     email = "nitro@ortin.dev";
@@ -511,17 +522,17 @@
       }
     ];
   };
+  reesilva = {
+    name = "Renato da Silva";
+    email = "reesilva@proton.me";
+    github = "ReeSilva";
+    githubId = 3605032;
+  };
   rosuavio = {
     name = "Rosario Pulella";
     email = "RosarioPulella@gmail.com";
     github = "Rosuavio";
     githubId = 7164552;
-  };
-  rsahwe = {
-    name = "rsahwe";
-    email = "rsahwe@gmx.net";
-    github = "rsahwe";
-    githubId = 201613730;
   };
   rszamszur = {
     name = "Radosław Szamszur";
@@ -546,11 +557,23 @@
     github = "SunOfLife1";
     githubId = 30405063;
   };
-  yarn = {
-    name = "yarncat";
-    email = "30006414+yaaaarn@users.noreply.github.com";
-    github = "yaaaarn";
-    githubId = 30006414;
+  superflash41 = {
+    name = "Saymon Nicho";
+    email = "saymon.nicho@pucp.edu.pe";
+    github = "superflash41";
+    githubId = 102434258;
+  };
+  vidhanio = {
+    name = "Vidhan Bhatt";
+    email = "me@vidhan.io";
+    github = "vidhanio";
+    githubId = 41439633;
+  };
+  will-lol = {
+    name = "William Bradshaw";
+    email = "will.bradshaw50@gmail.com";
+    github = "will-lol";
+    githubId = 65345408;
   };
   zorrobert = {
     name = "zorrobert";

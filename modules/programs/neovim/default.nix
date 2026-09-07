@@ -213,8 +213,8 @@ in
 
       waylandSupport = mkOption {
         type = types.bool;
-        default = pkgs.stdenv.isLinux;
-        defaultText = literalExpression "pkgs.stdenv.isLinux";
+        default = pkgs.stdenv.hostPlatform.isLinux;
+        defaultText = literalExpression "pkgs.stdenv.hostPlatform.isLinux";
         description = ''
           Whether to enable Wayland clipboard support.
         '';
@@ -556,7 +556,7 @@ in
         generatedConfigs =
           let
             grouped = lib.groupBy (x: x.type) pluginsNormalized;
-            configsOnly = lib.foldl (acc: p: if p.config != null then acc ++ [ p.config ] else acc) [ ];
+            configsOnly = ps: map (p: p.config) (lib.filter (p: p.config != null) ps);
           in
           lib.mapAttrs (_name: vals: lib.concatStringsSep "\n" (configsOnly vals)) grouped;
 
