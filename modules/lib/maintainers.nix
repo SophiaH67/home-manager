@@ -233,6 +233,12 @@
     github = "glmlm";
     githubId = 91877885;
   };
+  hectorgray = {
+    name = "Hector Gray";
+    email = "nix.giant993@passmail.net";
+    github = "hectorgray";
+    githubId = 194114763;
+  };
   henrisota = {
     email = "henrisota@users.noreply.github.com";
     github = "henrisota";
@@ -349,11 +355,6 @@
     github = "lheckemann";
     githubId = 341954;
   };
-  libewa = {
-    email = "libewa-git@icloud.com";
-    github = "libewa";
-    githubId = 67926131;
-  };
   lilyinstarlight = {
     email = "lily@lily.flowers";
     matrix = "@lily:lily.flowers";
@@ -456,6 +457,12 @@
     email = "nitro@ortin.dev";
     github = "NitroSniper";
     githubId = 44097331;
+  };
+  o-az = {
+    name = "Omar Aziz";
+    email = "23618431+o-az@users.noreply.github.com";
+    github = "o-az";
+    githubId = 23618431;
   };
   olmokramer = {
     name = "Olmo Kramer";
@@ -562,6 +569,11 @@
     email = "saymon.nicho@pucp.edu.pe";
     github = "superflash41";
     githubId = 102434258;
+  };
+  typeparameter = {
+    name = "Drew Davis";
+    github = "typeparameter";
+    githubId = 9686215;
   };
   vidhanio = {
     name = "Vidhan Bhatt";

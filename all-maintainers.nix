@@ -126,6 +126,13 @@
     name = "Daru";
     source = "nixpkgs";
   };
+  DavSanchez = {
+    email = "davidslt+nixpkgs@pm.me";
+    github = "DavSanchez";
+    githubId = 11422515;
+    name = "David Sánchez";
+    source = "nixpkgs";
+  };
   Dines97 = {
     email = "19364873+Dines97@users.noreply.github.com";
     github = "Dines97";
@@ -139,14 +146,6 @@
     githubId = 227132255;
     name = "erina";
     source = "home-manager";
-  };
-  Eveeifyeve = {
-    email = "eveeg1971@gmail.com";
-    github = "Eveeifyeve";
-    githubId = 88671402;
-    matrix = "@eveeifyeve:matrix.org";
-    name = "Eveeifyeve";
-    source = "nixpkgs";
   };
   Fendse = {
     email = "46252070+Fendse@users.noreply.github.com";
@@ -217,13 +216,6 @@
     matrix = "@janik0:matrix.org";
     name = "Janik";
     source = "home-manager";
-  };
-  JasmineLowen = {
-    email = "robwalter96@gmail.com";
-    github = "JasmineLowen";
-    githubId = 26892280;
-    name = "Robert Walter";
-    source = "nixpkgs";
   };
   JoaquinTrinanes = {
     email = "hi@joaquint.io";
@@ -1155,6 +1147,14 @@
     name = "Evan Stoll";
     source = "nixpkgs";
   };
+  eveeifyeve = {
+    email = "open-source@eveeifyeve.dev";
+    github = "eveeifyeve";
+    githubId = 88671402;
+    matrix = "@eveeifyeve:matrix.org";
+    name = "Eveeifyeve";
+    source = "nixpkgs";
+  };
   exzombie = {
     email = "jure@varlec.si";
     github = "exzombie";
@@ -1198,6 +1198,13 @@
     name = "Filip Pobořil";
     source = "home-manager";
   };
+  fraggerfox = {
+    email = "santhosh.raju@gmail.com";
+    github = "fraggerfox";
+    githubId = 189939;
+    name = "Santhosh Raju";
+    source = "nixpkgs";
+  };
   fufexan = {
     email = "fufexan@protonmail.com";
     github = "fufexan";
@@ -1210,6 +1217,14 @@
     github = "fugidev";
     githubId = 21362942;
     name = "Fugi";
+    source = "nixpkgs";
+  };
+  fzakaria = {
+    email = "farid.m.zakaria@gmail.com";
+    github = "fzakaria";
+    githubId = 605070;
+    matrix = "@fzakaria:matrix.org";
+    name = "Farid Zakaria";
     source = "nixpkgs";
   };
   garklein = {
@@ -1356,6 +1371,20 @@
     github = "ilaumjd";
     githubId = 16514431;
     name = "Ilham AM";
+    source = "nixpkgs";
+  };
+  ilovelinux = {
+    email = "nix+home-manager@ilovelinux.dev";
+    github = "ilovelinux";
+    githubId = 9268789;
+    name = "Antonio Spadaro";
+    source = "home-manager";
+  };
+  iniw = {
+    email = "dev@vini.cat";
+    github = "iniw";
+    githubId = 30220881;
+    name = "Vinicius Deolindo";
     source = "nixpkgs";
   };
   iosmanthus = {
@@ -1976,6 +2005,20 @@
     name = "Judson Lester";
     source = "nixpkgs";
   };
+  nyxar77 = {
+    email = "dev@nyxar.space";
+    github = "nyxar77";
+    githubId = 153492661;
+    name = "nyxar77";
+    source = "nixpkgs";
+  };
+  o-az = {
+    email = "23618431+o-az@users.noreply.github.com";
+    github = "o-az";
+    githubId = 23618431;
+    name = "Omar Aziz";
+    source = "home-manager";
+  };
   ojsef39 = {
     email = "me+github@jhofer.de";
     github = "ojsef39";
@@ -2273,18 +2316,6 @@
     name = "soracat";
     source = "home-manager";
   };
-  sableseyler = {
-    email = "sable@seyleri.us";
-    github = "sableseyler";
-    githubId = 1145981;
-    keys = [
-      {
-        fingerprint = "7246 B6E1 ABB9 9A48 4395  FD11 DC26 B921 A9E9 DBDE";
-      }
-    ];
-    name = "Sable Seyler";
-    source = "nixpkgs";
-  };
   sei40kr = {
     email = "sei40kr@gmail.com";
     github = "sei40kr";
@@ -2479,6 +2510,12 @@
     name = "Jessica";
     source = "nixpkgs";
   };
+  typeparameter = {
+    github = "typeparameter";
+    githubId = 9686215;
+    name = "Drew Davis";
+    source = "home-manager";
+  };
   uncenter = {
     email = "uncenter@uncenter.dev";
     github = "uncenter";
@@ -2583,6 +2620,18 @@
     github = "yethal";
     githubId = 26117918;
     name = "Yethal";
+    source = "nixpkgs";
+  };
+  yzx9 = {
+    email = "yuan.zx@outlook.com";
+    github = "yzx9";
+    githubId = 41458459;
+    keys = [
+      {
+        fingerprint = "FE16 B281 90EF 6C3F F661  6441 C2DD 1916 FE47 1BE2";
+      }
+    ];
+    name = "Zexin Yuan";
     source = "nixpkgs";
   };
   zeratax = {

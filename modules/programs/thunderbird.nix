@@ -384,9 +384,10 @@ let
 
 in
 {
-  meta.maintainers = [
+  meta.maintainers = with lib.maintainers; [
+    booxter
     lib.hm.maintainers.d-dervishi
-    lib.maintainers.jkarlson
+    jkarlson
   ];
 
   options = {
@@ -394,7 +395,7 @@ in
       enable = lib.mkEnableOption "Thunderbird";
 
       package = lib.mkPackageOption pkgs "thunderbird" {
-        example = "pkgs.thunderbird-91";
+        example = "pkgs.thunderbird-esr";
       };
 
       finalPackage = mkOption {
