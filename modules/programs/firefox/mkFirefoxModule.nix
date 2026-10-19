@@ -124,7 +124,7 @@ let
     '';
 
   mkContainersJson =
-    containers:
+    containers: containerSiteAssociations:
     let
       containerToIdentity = _: container: {
         userContextId = container.id;
@@ -157,6 +157,7 @@ let
             public = false;
           }
         ];
+        siteAssociations = containerSiteAssociations;
       }}
     '';
 
@@ -776,6 +777,17 @@ in
                   for more information.
                 '';
               };
+
+              containerSiteAssociations = mkOption {
+                type = types.attrs;
+                example = {
+                  "aliexpress.com" = 4;
+                };
+                description = ''
+                  Attribute set of website -> container associations.
+                '';
+              };
+
               extensions = mkOption {
                 type = types.submodule {
                   options = {
@@ -1313,7 +1325,7 @@ in
                   };
 
               "${cfg.profilesPath}/${profile.path}/containers.json" = mkIf (profile.containers != { }) {
-                text = mkContainersJson profile.containers;
+                text = mkContainersJson profile.containers (profile.containerSiteAssociations or { });
                 force = profile.containersForce;
               };
 
