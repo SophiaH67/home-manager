@@ -7,6 +7,11 @@
 let
   cfg = config.programs.readest;
   jsonFormat = pkgs.formats.json { };
+  settingsPath =
+    if pkgs.stdenv.hostPlatform.isDarwin then
+      "${config.home.homeDirectory}/Library/Application Support/com.bilingify.readest/settings.json"
+    else
+      "${config.xdg.configHome}/com.bilingify.readest/settings.json";
 
   inherit (lib)
     mkEnableOption
@@ -19,7 +24,10 @@ in
   meta.maintainers = [ lib.maintainers.nyxar77 ];
   options.programs.readest = {
     enable = mkEnableOption "Readest";
-    package = mkPackageOption pkgs "readest" { nullable = true; };
+    package = mkPackageOption pkgs "readest" {
+      nullable = true;
+      extraDescription = "Set programs.readest.package to null on platforms where readest is not available";
+    };
 
     settings = mkOption {
       inherit (jsonFormat) type;
@@ -34,8 +42,11 @@ in
         };
       };
       description = ''
-        Readest preferences to merge into
-        {file}`$XDG_CONFIG_HOME/com.bilingify.readest/settings.json`.
+        Readest preferences to merge into its settings file in the app config
+        directory:
+        {file}`$XDG_CONFIG_HOME/com.bilingify.readest/settings.json` on Linux
+        or {file}`~/Library/Application Support/com.bilingify.readest/settings.json`
+        on Darwin.
 
         Readest owns this file and may add or update values while it is
         running. Values declared here take precedence on Home Manager
@@ -54,7 +65,7 @@ in
           format = "json";
           empty = "{}";
           jqOperation = "$dynamic * $static";
-          path = "${config.xdg.configHome}/com.bilingify.readest/settings.json";
+          path = settingsPath;
           staticSettings = jsonFormat.generate "readest-settings.json" cfg.settings;
           mode = "600";
         }

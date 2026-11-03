@@ -405,6 +405,13 @@
     name = "Philipp Mildenberger";
     source = "nixpkgs";
   };
+  PierreBorine = {
+    email = "nixpkgs@thecakeis.top";
+    github = "PierreBorine";
+    githubId = 85021467;
+    name = "Pierre Borine";
+    source = "nixpkgs";
+  };
   ReStranger = {
     github = "ReStranger";
     githubId = 69393944;
@@ -680,6 +687,13 @@
     matrix = "@asymmetric:matrix.dapp.org.uk";
     name = "Lorenzo Manacorda";
     source = "nixpkgs";
+  };
+  awa2333 = {
+    email = "62987171+awa2333@users.noreply.github.com";
+    github = "awa2333";
+    githubId = 62987171;
+    name = "Yaoheng He/luke";
+    source = "home-manager";
   };
   b1kku = {
     email = "bikku+dev@slmail.me";
@@ -1320,6 +1334,13 @@
     name = "Eliza Weisman";
     source = "nixpkgs";
   };
+  hectorgray = {
+    email = "nix.giant993@passmail.net";
+    github = "hectorgray";
+    githubId = 194114763;
+    name = "Hector Gray";
+    source = "home-manager";
+  };
   henrisota = {
     email = "henrisota@users.noreply.github.com";
     github = "henrisota";
@@ -1495,6 +1516,13 @@
     name = "Johan Larsson";
     source = "nixpkgs";
   };
+  jonocodes = {
+    email = "jono@foodnotblogs.com";
+    github = "jonocodes";
+    githubId = 1310468;
+    name = "Jono Finger";
+    source = "nixpkgs";
+  };
   jonringer = {
     email = "jonringer117@gmail.com";
     github = "jonringer";
@@ -1562,6 +1590,13 @@
     github = "kalhauge";
     githubId = 1182166;
     name = "Christian Gram Kalhauge";
+    source = "home-manager";
+  };
+  kallisti-dev = {
+    email = "kallisti.dev@gmail.com";
+    github = "kallisti-dev";
+    githubId = 1530244;
+    name = "Adam Curtis";
     source = "home-manager";
   };
   kamadorueda = {
@@ -2314,6 +2349,12 @@
     github = "s0racat";
     githubId = 125882337;
     name = "soracat";
+    source = "home-manager";
+  };
+  sand4rt = {
+    github = "sand4rt";
+    githubId = 17591696;
+    name = "sand4rt";
     source = "home-manager";
   };
   sei40kr = {
